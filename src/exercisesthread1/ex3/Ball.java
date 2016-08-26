@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 import java.awt.*;
 
 /**
- * @author Lars Mortensen
+ * @author Patrick Johansen
  */
 
 /* 

@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  *
- * @author Guna
+ * @author Patrick Johansen
  */
 public class MyThread extends Thread {
     

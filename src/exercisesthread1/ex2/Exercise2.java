@@ -7,7 +7,7 @@ package exercisesthread1.ex2;
 
 /**
  *
- * @author Guna
+ * @author Patrick Johansen
  */
 public class Exercise2 {
 

@@ -17,7 +17,7 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 /**
- * @author plaul1
+ * @author Patrick Johansen
  */
 public class TextWriterForm extends javax.swing.JFrame {
 

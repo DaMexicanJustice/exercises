@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Lenovo
+ * @author Patrick Johansen
  */
 public class EchoServer {
 
@@ -25,6 +25,21 @@ public class EchoServer {
         Scanner input = new Scanner(s.getInputStream());
         PrintWriter writer = new PrintWriter(s.getOutputStream(), true);
         String message = input.nextLine();
+        
+        /*  How to connect to the server using telnet
+        
+            The application runs using the command-prompt/shell. 
+                ->Run this file
+                    ->Open the command prompt/shell (as admin)
+                        -> if telnet is enabled: telnet localhost 8080
+                        -> else: dism /online /Enable-Feature /FeatureName:TelnetClient 
+                            -> After connecting: type:
+                                ->UPPER#somemessage
+                                ->LOWER#somemessage
+                                ->TRANSLATE#somemessage
+                                ->REVERSE#somemessage
+                                    -> close when done.
+        */
         
         while (!message.equals("STOP")) {
             message = input.nextLine();

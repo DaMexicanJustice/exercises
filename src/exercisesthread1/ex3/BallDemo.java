@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author Lars Mortensen
+ * @author Patrick Johansen
  */
 public class BallDemo extends javax.swing.JFrame {
 

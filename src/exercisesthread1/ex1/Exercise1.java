@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Guna
+ * @author Patrick Johansen
  */
 public class Exercise1 {
 

@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 
 /**
- * @author Lars Mortensen
+ * @author Patrick Johansen
  */
 public class ResourceContainer {
 
