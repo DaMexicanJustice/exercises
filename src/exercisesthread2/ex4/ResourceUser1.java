@@ -1,4 +1,4 @@
-package deadlock;
+package exercisesthread2.ex4;
 
 import java.util.List;
 import java.util.logging.Level;
